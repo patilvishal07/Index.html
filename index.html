@@ -1,55 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <title>Home page</title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static web UI</title>
 </head>
-<body>
-
-    First name : <input type="text" name="firstname" placeholder="Full name"><br><br>
-
-    Last name : <input type="text" name="Lastname" placeholder="Lastname"><br><br>
-
-    Email : <Input type="text" name="Email" placeholder="example@gmail.com"><br><br>
-
-        Password : <input type="Text" name="Password" placeholder="Password"><br><br>
-
-      City : <input type="Text" name="City" placeholder="Enter city"><br><br>
+<Style>
+#div1{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+#div2{
+    width: 15%;
+    height: 350px;
+    background-color: black;
+    float: left;
+}
+#div3{
+    width: 70%;
+    height: 350px;
+background-color: cornflowerblue;
+    float: left;
+    text-align: center;
     
+}
+#div4{
+    width: 15%;
+    height: 350px;
+    background-color: aqua;
+    float: left;
+}
+#div5{
+    width: 70%;
+    height: 250px;
+    background-color: brown;
+   float: left;
+    
+}
+#div6{
+    width: 30%;
+    height: 250px;
+    background-color: chocolate;
+    float: left;
+
+}
+#div7{
+    width: 100%;
+    height: 70px;
+    background-color: chartreuse;
+    clear: both;
+   
+}
+ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+}
+li{
+  float: left;
+    padding: 10px;
+    
+     
+}
+a{
+    display: block;
+    width: 150px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align:center;
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    color:wheat;
+     border-radius:20px 0px 20px 0px;
+     padding: 10px;
+}
+</Style>
 
 
-    Gender: <input type="radio" name="Gender" value="male">male
-            <input type="radio" name="Gender" value="Female">Female 
-            <input type="radio" name="Gender" value="Other">Other <br><br>
+<body>
+    <Div id="div1" >
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">user</a></li>
+    <li><a href="#">Contact</a></li>
+    <li><a href="#">Info</a></li>
+    <li><a href="#">product</a></li>
+    <li><a href="#">HTML</a></li>
+    
+</ul>
+    </Div>
+    <Div id="div2">
+        
+    </Div>
+    <Div id="div3">
+        <h1>Hello World</h1>
+    </Div>
+    <Div id="div4">
+        
+    </Div>
+    <Div id="div5">
+        
+    </Div>
+    <Div id="div6">
+        
+    </Div>
+    <div id="div7">
 
-
-            Hobby : <input type="checkbox" name="Hobby" value="play">Play
-      <input type="checkbox" name="Hobby" value="read">read
-      <input type="checkbox" name="Hobby" value="write">write<br><br>
-
-      Select city : <select name="City">
-          <option value="Mumbai">Mumbai</option>
-          <option value="Pune">Pune</option>
-          <option value="Nagpur">Nagpur</option>
-          <option value="Ahemdabad">Ahemdabad</option>
-          </select><br><br>
-
-comment : <Textarea name="Comment" cols="30" Rows="5"></Textarea><br><br>
-
-Browser : <input list="browser" name="browser">
-<datalist id="browser">
-    <option value="Internal Explorer">
-    <Option value="Firefox">
-    <Option value="Chrome">
-    <Option value="Opera">
-    <option value="Safari">
-    </datalist>
-    <br><br>
-
-         <input type="Submit" value="save data">
-       <input type="Reset" value="Reset value">
-
+    </div>
+   
 
 </body>
 </html>
